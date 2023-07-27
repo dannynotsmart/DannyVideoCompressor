@@ -223,11 +223,11 @@
             // github
             // 
             this.github.AutoSize = true;
-            this.github.Location = new System.Drawing.Point(38, 417);
+            this.github.Location = new System.Drawing.Point(20, 417);
             this.github.Name = "github";
             this.github.Size = new System.Drawing.Size(497, 28);
             this.github.TabIndex = 18;
-            this.github.Text = "https://github.com/dannynotsmart/dannyrocko5976";
+            this.github.Text = "https://github.com/dannynotsmart/DannyVideoCompressor";
             // 
             // MainWindow
             // 

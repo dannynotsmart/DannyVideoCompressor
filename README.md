@@ -8,7 +8,8 @@
 ### 5. [How to use?](#how-to-use)
 ### 6. [Contributions/Feedback](#contributionsfeedback)
 ### 7. [Why this name?](#why-this-name)
-### 8. [Expected Features](#expected-features)
+### 8. [Features List](#features-list)
+### 9. [Expected Features](#expected-features)
 
 ### For quick use, read only 3, 4, and 5.
 
@@ -62,6 +63,11 @@ If you want to add anything, please create a PR, and I might take a look at it.
 If you have feedback, I would greatly appreciate it! Please create a issue for your feedback.
 
 If you would like to message me personally for any questions or such, my Discord username is @`applicationprogramminginterface` (sus). To have mutual servers, you can join `discord.gg/python`, `discord.gg/dpy`, or `discord.gg/csharp`.
+
+## Features List
+- Select any video file with these extensions: `.mp4;.avi;.mkv;.wmv` to compress.
+- Select any folder to save compressed video to.
+- Select compression size of 8MB, 25MB, 50MB, 100MB.
 
 ## Expected Features
 - Select specific compression size
