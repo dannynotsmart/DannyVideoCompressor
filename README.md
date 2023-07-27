@@ -26,7 +26,7 @@ This is meant to be a local alternative version of [8mb.video](https://8mb.video
 
 ## Security
 I do not have a certificate, or whatever Microsoft uses to publish applications made with .NET. This application is safe, and it is not a virus. You can verify this with:
-- VirusTotal: Here is this [link](https://www.virustotal.com/gui/file-analysis/YWQ2MWVmODVkMzEzZTMxZjkxNTgzNDBiOWY3Yzc3MWY6MTY5MDQyODAwOQ==) to the VirusTotal scan. This scanned v1.0.0
+- VirusTotal: Here is this [link](https://www.virustotal.com/gui/file-analysis/ZDNmOWRhY2I2ZjBiMTJmZWQ4ZTMwNDlmODg1ZWY1YTg6MTY5MDQzMjEzMw==) to the VirusTotal scan. This scanned v1.0.1.
 - [dotPeek](https://www.jetbrains.com/decompiler/): You can decompile the Executable, since it is built in C# with .NET. From there, you can read the source code to ensure it's safe.
 - Github: This is literally the Github repository for the application, go read the code.
 
@@ -45,7 +45,7 @@ Here are some vital links you should follow:
 ## How to Install and Run?
 Before reading this, make sure to read the [pre-requisites](#pre-requisites-important), or else this application may not work on your computer!
 
-For a pre-compiled executable file, please head over to [Releases](https://github.com/dannynotsmart/DannyVideoCompressor/releases/tag/v1.0.0), and install the .exe file. 
+For a pre-compiled executable file, please head over to [Releases](https://github.com/dannynotsmart/DannyVideoCompressor/releases), and install the .exe file. 
 
 If you would like to build this project yourself, you can easily do so by cloning this repository in Visual Studios, then build it.
 
