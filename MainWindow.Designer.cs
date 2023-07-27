@@ -44,6 +44,7 @@
             this.fiftyMB = new System.Windows.Forms.RadioButton();
             this.hundredMB = new System.Windows.Forms.RadioButton();
             this.compressButton = new System.Windows.Forms.Button();
+            this.github = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // chooseInputVideoLabel
@@ -219,12 +220,22 @@
             this.compressButton.UseVisualStyleBackColor = true;
             this.compressButton.Click += new System.EventHandler(this.compressButton_Click);
             // 
+            // github
+            // 
+            this.github.AutoSize = true;
+            this.github.Location = new System.Drawing.Point(38, 417);
+            this.github.Name = "github";
+            this.github.Size = new System.Drawing.Size(497, 28);
+            this.github.TabIndex = 18;
+            this.github.Text = "https://github.com/dannynotsmart/dannyrocko5976";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(572, 418);
+            this.ClientSize = new System.Drawing.Size(572, 454);
+            this.Controls.Add(this.github);
             this.Controls.Add(this.compressButton);
             this.Controls.Add(this.hundredMB);
             this.Controls.Add(this.fiftyMB);
@@ -245,7 +256,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainWindow";
-            this.Text = "Video Compressor LOL";
+            this.Text = "DannyVideoCompressor v1.0.1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,5 +280,6 @@
         private RadioButton fiftyMB;
         private RadioButton hundredMB;
         private Button compressButton;
+        private Label github;
     }
 }
